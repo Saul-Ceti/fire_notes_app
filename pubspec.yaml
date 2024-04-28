@@ -1,0 +1,36 @@
+name: fire_notes_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_expandable_fab: ^2.0.0
+  image_picker: ^1.1.0
+  # state management
+  provider: ^6.1.2
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+  # firebase and google
+  firebase_auth: ^4.19.0
+  firebase_core: ^2.28.0
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^4.17.2
+  firebase_ui_firestore: ^1.6.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  change_app_package_name: ^1.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/app_icon.png
+  
